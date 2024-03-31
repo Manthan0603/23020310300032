@@ -1,0 +1,301 @@
+.mahindra,
+.tata,
+.toyota {
+  position: absolute;
+  top: 52px;
+  left: 76px;
+}
+.mahindra,
+.toyota {
+  top: 367px;
+}
+.toyota {
+  top: 701px;
+}
+.image-1-icon,
+.image-2-icon,
+.image-3-icon {
+  position: absolute;
+  top: 19px;
+  left: 29px;
+  width: 493px;
+  height: 270px;
+  object-fit: cover;
+}
+.image-2-icon,
+.image-3-icon {
+  top: 0;
+  left: 567px;
+  width: 506px;
+  height: 295px;
+}
+.image-3-icon {
+  top: 334px;
+  left: 36px;
+  width: 479px;
+  height: 283px;
+}
+.image-4-icon,
+.image-5-icon,
+.image-6-icon {
+  position: absolute;
+  top: 276px;
+  left: 600px;
+  width: 509px;
+  height: 379px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-5-icon,
+.image-6-icon {
+  top: 649px;
+  left: 0;
+  width: 583px;
+  height: 290px;
+}
+.image-6-icon {
+  top: 630px;
+  left: 619px;
+  width: 579px;
+  height: 344px;
+  z-index: 2;
+}
+.top-level-frame {
+  position: absolute;
+  top: 71px;
+  left: 101px;
+  width: 1198px;
+  height: 953px;
+}
+.desktop-1 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-baloo);
+}
+@media screen and (max-width: 450px) {
+  .mahindra,
+  .tata,
+  .toyota {
+    font-size: var(--font-size-lgi);
+  }
+}.image-1-icon,
+.mercedes {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.mercedes {
+  height: 38px;
+  display: inline-block;
+  min-width: 103.29999999999995px;
+}
+.image-1-icon {
+  height: 304px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1-wrapper {
+  align-self: stretch;
+  height: 304px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 31px 0 25px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -0.5px;
+}
+.audi {
+  position: relative;
+  display: inline-block;
+  min-width: 49px;
+}
+.image-3-icon {
+  align-self: stretch;
+  height: 298px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-3-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 0 0;
+  box-sizing: border-box;
+  min-width: 332px;
+  max-width: 100%;
+}
+.audi-parent,
+.bmw,
+.image-5-icon {
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.audi-parent {
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -0.5px;
+}
+.bmw,
+.image-5-icon {
+  position: relative;
+}
+.bmw {
+  display: inline-block;
+  min-width: 55px;
+  margin-top: -0.5px;
+}
+.image-5-icon {
+  height: 259px;
+  width: 562px;
+  object-fit: cover;
+}
+.image-5-wrapper,
+.mercedes-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.image-5-wrapper {
+  align-self: stretch;
+  height: 259px;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -0.5px;
+}
+.mercedes-parent {
+  width: 615px;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 615px;
+}
+.image-2-icon {
+  width: 578px;
+  height: 292px;
+}
+.image-2-icon,
+.image-4-icon,
+.image-6-icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.image-4-icon {
+  width: 533px;
+  height: 268px;
+}
+.image-6-icon {
+  height: 295px;
+  flex: 1;
+  overflow: hidden;
+}
+.image-6-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-14xl);
+  box-sizing: border-box;
+}
+.frame-wrapper,
+.image-4-parent,
+.image-6-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.image-4-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.frame-wrapper {
+  height: 565px;
+  flex-direction: row;
+  padding: 0 0 0 19px;
+  box-sizing: border-box;
+}
+.desktop-1,
+.frame-wrapper,
+.image-2-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.image-2-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+  min-width: 443px;
+  max-width: 100%;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 49px 57px var(--padding-9xl) 67px;
+  box-sizing: border-box;
+  gap: 19px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-baloo);
+}
+@media screen and (max-width: 1125px) {
+  .mercedes-parent {
+    flex: 1;
+  }
+  .desktop-1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .mercedes-parent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .audi-parent {
+    flex-wrap: wrap;
+  }
+  .image-2-parent {
+    gap: 21px 42px;
+    min-width: 100%;
+  }
+  .desktop-1 {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .audi,
+  .bmw,
+  .mercedes {
+    font-size: var(--font-size-lgi);
+  }
+}
